@@ -1,0 +1,29 @@
+html, body {
+padding: 0;
+border: 0;
+margin: 50;
+font: inherit;
+font-size: 100%;
+}
+body {
+    background-color: white;
+    }
+div.input1, div.input2 {
+  margin-bottom: 5px;
+}
+div.inputLT {
+color: black;
+margin-top: 20px;
+}
+div.inputEUR {
+  color: black;
+  margin-top: 5px;
+}
+div.numeriukas {
+  text-align: center;
+  color: black;
+
+}
+div.mygtukas {
+  text-align: center;
+}

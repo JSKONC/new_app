@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script src="js/design.js"></script>
+    </head>
+    <body>
+        <div class="input1">
+            <input type="number" id="ltl">
+            <button onclick="toEUR()">LTL-->EUR</button>
+       </div>
+        <div class="input2">
+            <input type="number" id="eur">
+            <button onclick="toLTL()">EUR-->LTL</button>
+       </div>
+       <div class="inputLT">
+            <p><input type="number" id="euras" onkeyup="convert1()"> EUR</p>
+      </div>
+      <div class="inputEUR">
+            <p><input type="number" id="litas" onkeyup="convert2()"> LTL</p>
+     </div>
+     <div class="numeriukas">
+       <br><p><input type="number" id="ivedimas"> IVESTI</p><br>
+       <br><input type="text" id="readonly" readonly> READONLY<br>
+       <br><p><input type="number" id="suma"> SUMA</p><br>
+       <br><p><input type="number" id="vidurkis"> VIDURKIS</p><br>
+       <button onclick="readInputAndCalculate()">IVESK IR PASKAICIUOK!</button>
+       
+    </div>
+     </body>
+
+</html>
